@@ -19,9 +19,9 @@ public class CafeAmargo extends Bebida{
     public Double preco() {
        switch (size) {
             case GRANDE:
-                return 1.23 + 3;
+                return 1.23 + 0.44;
             case MEDIO:      
-                return 1.23 + 2;
+                return 1.23 + 0.25;
             default:
                 return 1.23;
         }
